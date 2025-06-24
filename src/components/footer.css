@@ -1,0 +1,9 @@
+.footer-text a{
+    text-decoration: underline;
+}
+
+.footer-text{
+    padding: 1rem 0rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
