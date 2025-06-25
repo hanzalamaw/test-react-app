@@ -1,6 +1,6 @@
+import './dataTable.css'
 import { useEffect } from "react"
 import React, { useRef } from 'react';
-import './dataTable.css'
 
 function dataTable(props){
 
