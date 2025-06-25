@@ -7,7 +7,7 @@
     border-collapse: collapse;
 }
 
-.table thead {
+.table thead { 
     background: #323232;
     text-align: left;
 }
@@ -38,15 +38,17 @@
 }
 
 .badge.received {
-    background-color: #07c3391a;
-    color: #07C339;
-    border: 0.1rem solid #07C339;
+    background: rgba(7, 195, 70, 0.322);
+    color: #fff;
+    border: 0.1rem solid rgb(7, 195, 70);
+    font-weight: 400;
 }
 
 .badge.pending {
-    background-color: #c3073013;
-    color: #C30730;
+    background: rgba(195, 7, 48, 0.418);
+    color: #fff;
     border: 0.1rem solid #C30730;
+    font-weight: 400;
 }
 
 td button{

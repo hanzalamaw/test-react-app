@@ -62,7 +62,7 @@ function home(){
                 </div>
 
                 <div className='generalStats'>
-                    <Footer/>
+                    <Footer name="GreeenDome Travel & Tours"/>
                 </div>
             </div>
         </div>       

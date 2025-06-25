@@ -1,9 +1,9 @@
 import './footer.css'
 
-function footer(){
+function footer(props){
     return(
         <>
-        <p className='footer-text'>© 2025 GreenDome Travel & Tours. All rights reserved. Powered by <a href="https://webhouseinc.co/">WebHouse Inc.</a></p>
+        <p className='footer-text'>© 2025 {props.name}. All rights reserved. Powered by <a href="https://webhouseinc.co/">WebHouse Inc.</a></p>
         </>
     )
 }
